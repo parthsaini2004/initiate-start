@@ -16,7 +16,7 @@ const Student = () => {
                 <div className="name">
                     <div className="compact">
                     <div className="studentname">
-                        Parth Saini
+                        Parth Saini hellllo testing
                     </div>
                     <div className="collegename">
                         Delhi Technical University
