@@ -1,0 +1,65 @@
+.imgdata img{height: 12vw;width: 12vw;border-radius: 10vw;position: relative;align-items: center;}
+.imgdata{padding: 4vw 0vw 0vw 19vw;}
+.data1{width: 50vw;height: 40vw;background-color: white;border-radius: 1vw;margin-right: 1vw;align-items: center;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);}
+.data2_sub1{width: 30vw;height: 30vw;background-color: rgb(87, 50, 250);margin-bottom: 1vw;border-radius: 1vw;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);}
+.data2_sub2{width: 30vw;height: 9vw;background-color:white;border-radius: 1vw;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);}
+.data{display: flex;flex-direction: row;padding-left: 9vw;padding-top: 5vw;background-color: rgb(242, 242, 242);padding-bottom: 5vw;}
+.namedata{font-size: 3vw;position: relative;text-align: center;}
+.title{font-size: 2vw;position: relative;text-align: center;}
+.info{font-size: 1.5vw;position: relative;text-align: center;max-width: 45vw;padding-left: 5vw;}
+
+.articles{display: flex;flex-direction: row;margin-left: 2vw;margin-top: 2vw;}
+.art{text-align: center;max-width: 12vw;max-height: 8vw;background-color: darkorange;margin: 0vw 2vw;padding: 2vw 2vw;font-size: 1.5vw;border-radius: 1vw;font-weight: 600;color: white ;}
+.art1{background-color: rgb(29, 186, 252);}
+.art2{background-color: rgb(87, 50, 250);}
+.art3{background-color: rgb(250, 107, 34);}
+
+
+
+.textdata2{text-align: left;font-size: 2vw;max-width: 20vw;padding-top: 5vw;padding-left: 2vw;color: white;font-weight: 700;}
+.infodata2{max-width: 30vw;padding-left: 2vw;font-size: 1.5vw;color: rgba(255, 255, 255, 0.641);}
+.circle{padding-left: 7vw;padding-top: 1vw;}
+.outer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background-color:white;
+    margin: 10px;
+    cursor:pointer;
+   
+  }
+  
+  .inner {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: rgba(87, 50, 250,1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-out;
+    
+  }
+  .circletext{
+   
+    position: absolute;
+    text-align: center;
+    border-radius: 20vw;
+    padding-top: 3.5vw;
+    padding-left: 3.5vw;
+    max-width: 7vw;
+    font-weight: 900;
+    color: white;
+  }
+  
+  .outer:hover .inner {
+    width: 99%;
+    height: 99%;
+  }
+
+  .links{display: flex;flex-direction: row;}
+  .links div{padding: 3vw 2vw;}
+  
+  
