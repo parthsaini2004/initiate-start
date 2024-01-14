@@ -1,0 +1,15 @@
+@media (min-width: 576px){
+.form-inline .form-control {
+    display: inline-block;
+    width: 9vw;
+    vertical-align: middle;
+}
+}
+.paddingnav{padding: 1.5vw 1vw ;font-size: 1.5vw;}
+.paddingnav:hover{background-color:rgba(1, 123, 254,0.1);cursor: pointer;}
+.navlogo{margin: 0vw 2vw;}
+.vl {
+    border-left: 2px solid green;
+    height: 40px;
+    margin-right: 0vw;
+  }
